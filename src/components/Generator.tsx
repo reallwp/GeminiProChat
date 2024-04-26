@@ -26,7 +26,7 @@ export default () => {
 
     window.addEventListener('scroll', () => {
       const nowPostion = window.scrollY
-      nowPostion < lastPostion && setStick(false)
+      现在Postion < lastPostion && setStick(false)
       lastPostion = nowPostion
     })
 
@@ -261,7 +261,7 @@ export default () => {
           <textarea
             ref={inputRef!}
             onKeyDown={handleKeydown}
-            placeholder="Enter something..."
+            placeholder="输入问题..."
             autocomplete="off"
             autofocus
             onInput={() => {
